@@ -6,7 +6,7 @@ This project is a gui able to set a midi knobs as controller of Linux master aud
 ```bash
 midiknobs_gui
 ```
-![Gui image](imgs/gui.png)
+![Gui image](https://raw.githubusercontent.com/nicolalandro/midi_kbobs/master/imgs/gui.png)
 * Select the Midi device
 * Set the correct value of "Channel" and "Control"
 * Click "Connect"
