@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name="midiknobs",
     description="A small pyqt5 gui to use midi knobs for change linux master audio",
-    version="0.0.1",
+    version="0.0.2",
     python_requires='>=3.5',
     long_description=long_description,
     install_requires=["python-rtmidi", "mido", "vext.pyqt5", "PyQt5"],
