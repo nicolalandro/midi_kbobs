@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="midi_knobs",
+    name="midiknobs",
     description="A small pyqt5 gui to use midi knobs for change linux master audio",
     version="0.0.1",
     python_requires='>=3.5',
     install_requires=["python-rtmidi", "mido", "vext.pyqt5"],
     packages=find_packages(),
     entry_points={
-        'console_scripts': ['midi_knobs=midi_knobs.__main__:main'],
+        'console_scripts': ['midiknobs=midiknobs.__main__:main'],
     },
 )
