@@ -1,0 +1,5 @@
+.idea
+venv
+build
+dist
+midi_knobs.egg-info
