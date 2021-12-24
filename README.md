@@ -4,10 +4,17 @@ This project is a gui able to set a midi knobs as controller of Linux master aud
 
 # User Doc
 
+* install:
+```
+sudo apt-get install python3-dev
+# on OpenSuse: sudo zypper in python3-devel
+# on Other dist: https://stackoverflow.com/questions/21530577/fatal-error-python-h-no-such-file-or-directory#21530768
+python3 -m pip install midiknobs
+```
 * run:
 
 ```bash
-midiknobs_gui
+python3 -m midiknobs
 ```
 
 ![Gui image](https://raw.githubusercontent.com/nicolalandro/midi_kbobs/master/imgs/gui.png)
