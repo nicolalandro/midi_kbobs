@@ -1,3 +1,5 @@
+[![download counts on pypi](https://img.shields.io/pypi/dm/midiknobs.svg)](https://pypistats.org/packages/midiknobs)
+
 # midi_kbobs
 
 This project is a gui able to set a midi knobs as controller of Linux master audio.
